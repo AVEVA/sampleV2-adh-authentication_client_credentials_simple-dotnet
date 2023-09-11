@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthCC", "AuthCC\AuthCC.csproj", "{FF8D00FB-9B36-4FE0-8EA9-58892C21487A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthCCTest", "AuthCCTest\AuthCCTest.csproj", "{D10E191E-F20B-4D65-AE4B-677C3AAC7673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{729DE86A-EEE4-4BB6-A31E-4A48C8CDEB68}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		CODEOWNERS = CODEOWNERS
+		HISTORY.md = HISTORY.md
+		LICENSE = LICENSE
+		polaris.yml = polaris.yml
+		README.md = README.md
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF8D00FB-9B36-4FE0-8EA9-58892C21487A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8D00FB-9B36-4FE0-8EA9-58892C21487A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8D00FB-9B36-4FE0-8EA9-58892C21487A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8D00FB-9B36-4FE0-8EA9-58892C21487A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10E191E-F20B-4D65-AE4B-677C3AAC7673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10E191E-F20B-4D65-AE4B-677C3AAC7673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10E191E-F20B-4D65-AE4B-677C3AAC7673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10E191E-F20B-4D65-AE4B-677C3AAC7673}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12DDD5B9-9A5D-4E65-AFD2-51816FF16BF2}
+	EndGlobalSection
+EndGlobal
